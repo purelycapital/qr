@@ -26,6 +26,11 @@ i {
 	width: 100px;
 }
 
+#purelyWords {
+	width: 300px;
+	padding-top:15px;
+}
+
 .jumbotron {
 	padding-bottom:0;
 	margin-bottom:0;
