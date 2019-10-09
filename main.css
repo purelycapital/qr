@@ -11,7 +11,7 @@ h1 {
 }
 
 .img-fluid {
-	max-width: 60%
+	xmax-width: 60%
 }
 
 i {
@@ -24,7 +24,7 @@ i {
 
 
 .imgContainer {
-	width: 100px;
+	xwidth: 100px;
 }
 
 #purelyWords {
@@ -32,8 +32,11 @@ i {
 	padding-top:15px;
 }
 
+#purelyP {
+	max-width: 80%
+}
 #sff-logo {
-	xwidth:300px;
+	max-width: 60%
 }
 
 .jumbotron {
