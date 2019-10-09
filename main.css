@@ -32,6 +32,10 @@ i {
 	padding-top:15px;
 }
 
+#sff-logo {
+	xwidth:300px;
+}
+
 .jumbotron {
 	padding-bottom:0;
 	margin-bottom:0;
@@ -65,7 +69,7 @@ p.lead {
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-#xloading {
+#loading {
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -109,11 +113,17 @@ p {
 }
 
 .row {
-	padding-bottom:10px;
+	xpadding-bottom:10px;
+}
+
+.column {
+	width:50%;
+	padding: 0 5%;
 }
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
+
   cursor: pointer;
   text-align: left;
   outline: none;
@@ -132,11 +142,21 @@ p {
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: white;
+  xcolor: white;
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.list-group-item.active {
+	background-color: white;
+	color: black;
+	border-color: white;
+}
+
+button:focus {
+ outline: none;
 }
