@@ -32,11 +32,8 @@ i {
 	padding-top:15px;
 }
 
-#purelyP {
+#pc_logo {
 	max-width: 80%
-}
-#sff-logo {
-	max-width: 60%
 }
 
 .jumbotron {
@@ -81,12 +78,12 @@ p.lead {
 	z-index: 9999;
 	background: url("images/PURELY_CAPITAL_ANIMATED_P_1920X1080.gif") 50% 50% #fff;
 }
-/*#address {
+#address {
 	text-decoration: none;
 	color: white;
 	opacity: 50%;
-	font-size: 0.75em;
-}*/
+	xfont-size: 0.75em;
+}
 
 .regulated {
 	margin-bottom:0;
@@ -111,7 +108,7 @@ p {
 	margin:0;
 	padding:0;
 	padding: 1%;
-	color: #495057;
+	color: white;
 	text-decoration: white;
 }
 
